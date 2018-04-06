@@ -1,0 +1,61 @@
+#site-header .primary-navigation, #site-header #perspective-menu-buttons {
+  text-align: left;
+}
+#primary-menu.no-responsive {
+  margin-left: 100px;
+  padding-top: 25px;
+}
+.header-style-4 #primary-menu.no-responsive > li.menu-item-active > a {
+  border-bottom: 2px solid #ffffff;
+}
+
+#primary-menu.no-responsive > li > a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Fira Sans';
+}
+.call-button {
+  margin-right: 50px;
+  text-transform: uppercase;
+  padding: 5px 20px 5px 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  bottom: 26px;
+  font-size: 14px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+}
+
+.call-number {
+  bottom: 33px;
+  right: 229px;
+  margin-left: 50px;
+  position: absolute;
+}
+@media (max-width: 1212px) and (min-width: 980px) {
+  #site-header .header-main:not(.header-layout-fullwidth_hamburger):not(.logo-position-menu_center) .site-title {
+    display: table-cell;
+    text-align: left;
+  }
+}
+
+
+@media (max-width: 1212px) and (min-width: 980px) {
+  #site-header .header-main:not(.header-layout-fullwidth_hamburger):not(.logo-position-menu_center) .site-title, #site-header .header-main:not(.header-layout-fullwidth_hamburger) .primary-navigation, #site-header .header-main:not(.header-layout-fullwidth_hamburger) #perspective-menu-buttons {
+    display: table-cell;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1212px) and (min-width: 980px) {
+  #site-header.fixed.shrink .header-main:not(.header-layout-fullwidth_hamburger) .site-title {
+    display: table-cell;
+  }
+}
+
+@media (max-width: 1212px) and (min-width: 980px) {
+  #site-header .site-title a img.small, #site-header .menu-item-logo {
+    display: inline !important;
+  }
+}
